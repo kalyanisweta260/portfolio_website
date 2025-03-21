@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        section {
+            padding: 50px;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 10px auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .social-links a {
+            color: white;
+            margin: 10px;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #ffcc00;
+        }
+        button {
+            background: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #ff9900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+    
+    <section id="home">
+        <img src="image.jpg" alt="Profile Photo" class="profile-pic">
+        <p>Hi, I'm a passionate web developer with experience in building modern and responsive websites.</p>
+       
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Multi Database Monitoring System</h3>
+            <p>A project designed to facilitate simultaneous connections to multiple databases, allowing multiple clients to work efficiently.</p>
+            <p><strong>Technologies:</strong> Java (Frontend), MySQL, Oracle, MS Access (Backend)</p>
+        </div>
+        <div class="project">
+            <h3>Mukhya Mantri Laxmi Ladi Yojna</h3>
+            <p>A government initiative to promote the welfare and education of girl children from below-poverty-line families.</p>
+            <p><strong>Technologies:</strong> ASP.NET (Frontend), SQL (Backend)</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m <strong>Kalyani Sweta</strong>, an IT professional with a Master’s in Computer Applications (MCA) from Ranchi University. I specialize in <strong>web development, IT infrastructure management, and database administration</strong>.</p>
+        <p>Currently, I work as an <strong>IT Executive</strong> at Blood Centre, Nagarmal Modi Seva Sadan Hospital, where I manage blood centre software, IT infrastructure, and data analysis to improve efficiency and accuracy in operations.</p>
+        <p><strong>Key Achievements:</strong></p>
+        <ul>
+            <li>Implemented an automated blood typing and cross-matching system, reducing errors by 90%.</li>
+            <li>Improved data accuracy by 95% through system integration.</li>
+            <li>Enhanced the donor management system, increasing donations by 25%.</li>
+        </ul>
+        <p>My skill set includes <strong>C, C++, Java, MySQL, ASP.NET</strong>, and expertise in <strong>Microsoft Office and Blood Centre Management Systems</strong>.</p>
+        <p>If you're looking for a <strong>dedicated and detail-oriented developer</strong>, let’s connect and collaborate on something amazing! 🚀</p>
+     </section>
+    
+    <footer>
+        <h2>Contact Me</h2>
+        <div class="social-links">
+            <a href="https://github.com/kalyanisweta260" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/kalyani-sweta-2b7262105/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="mailto:kalyanisweta260@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </footer>
+
+     
+</body>
+</html>
